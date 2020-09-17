@@ -1,0 +1,97 @@
+p {
+    /*background-color: rgb( 254, 161, 0) !important;*/
+    color: whitesmoke !important;
+    text-align: justify;
+    font-size: 14pt;
+    border-radius: 0.8rem;
+    text-indent: 4em;
+    letter-spacing: 0.1px;
+}
+
+h4 {
+    color: black !important;
+}
+
+label {
+    color: rgb(245, 245, 245);
+    font-size: 17px;
+}
+
+h5 {
+    color: black !important;
+}
+
+li {
+    color: whitesmoke;
+    font-family: ebrima;
+    text-align: justify;
+    font-size: 14pt;
+    border-radius: 0.8rem;
+    letter-spacing: 0.1px;
+}
+
+body {
+    background-color: rgb(54, 56, 97) !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+hr {
+    border-color: rgb(209, 6, 113) !important;
+}
+
+nav a {
+    background-color: rgb(52, 58, 64) !important;
+    color: white !important;
+}
+
+nav a img {
+    margin-top: 1px;
+}
+
+#logo {
+    height: 70px;
+    background-color: rgb(52, 58, 64) !important;
+
+}
+
+.linka {
+    background-color: rgb(54, 56, 97) !important;
+}
+
+h2 {
+    font-family: berlin sans FB;
+    color: black !important;
+}
+
+h1 {
+    text-shadow: 1px 1px black, -1px 1px black, 1px -1px black , -1px -1px black;
+    text-align: center;
+    color:  rgb(255, 162, 0) !important;
+    background-color: rgb(63, 66, 107) !important;
+    padding: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 250px !important;
+    }
+
+    #logo {
+        width: 200px !important;
+        background-color: rgb(52, 58, 64) !important;
+        margin-right: auto;
+    }
+
+    h2 {
+        margin-left: 0px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    p {
+        margin: auto !important;
+        margin-right: auto !important;
+    }
+}
